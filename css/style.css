@@ -34,6 +34,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .templateux-menu ul li a:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #dc3545; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
 
+.templateux-navbar .templateux-menu ul li a.selected:before,
 .templateux-navbar .templateux-menu ul li a:hover:before { width: 100%; }
 
 .templateux-navbar .templateux-menu ul li.active > a:before { width: 100%; }
